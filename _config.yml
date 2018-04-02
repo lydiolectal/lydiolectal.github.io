@@ -14,16 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# Things TODO (aka style changes I want to make):
-# - change content font to inconsolata, headers to noto serif. DONE.
-# - change background color of syntax highlighting. DONE. changed to white for now.
-# - create a archives page (?)
-
 
 title: Lydia Da Ding
 email: lydia.da.ding@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  the [usually technical] scribblings of one lydia ding: programmer, linguist, hobby baker.
+  a certain programmer and linguist, now @ the recurse center.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lydiolectal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb

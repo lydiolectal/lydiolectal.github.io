@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Hello!"
-date:   2018-03-31 11:01:18 -0400
-categories: random
----
-
-First post?!
