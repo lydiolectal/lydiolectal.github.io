@@ -1,0 +1,81 @@
+---
+layout: post
+title:  "Day 2"
+date: 2018-04-04
+categories: rc
+---
+# RC is...overwhelming.
+
+It's day two at RC. This is such a new experience that I have momentarily misplaced my own tendencies and habits. I think it will be at least another half-week to a full-week before I find them again. I'm also acutely cognizant of the fact that I am one of the least experienced people in this space, and I feel that I am asking for help far more often than I am able to offer it. But RCers here so far are incredibly, unbelievably generous with their time and expertise. This is probably the best place to be a newbie.
+
+Yesterday morning, I met more people than I can remember and talked a lot. Yesterday afternoon, I came back from lunch and found myself in a room full of mostly silent people hunched over their computers. The contrast between the excitement and structure of the morning and the lack of external structure in the afternoon was jarring for me. I spent the afternoon writing this list of things I maybe want to do:
+
+[*Warning*: the rest of this post is literally a list dump. Many of my posts will be list dumps, and the list dumps will be frequent.]
+
+## Learning goals (exhaustive and to be pared down)
+- Structure and Intepretation of Computer Programs (Scheme-y), with Marlene.
+- Programming Language Pragmatics, Scott.
+- C programming language, Kernighan and Ritchie -- Janice, Brandon.
+- bash
+- Go???
+- React / JS / writing a game in react.
+- recipe scraper chrome extension
+- compiler
+- how to ask better questions.
+- English bias in programming language design / PLs based on non-English langs.
+- Nand to Tetris, [here](https://www.coursera.org/learn/build-a-computer)
+
+## Computer skills
+- Git / Github things
+- getting better at bash
+- different kind of text editor / command line setps
+
+## CS "Fun"damentals
+- Stanford algorithms course, parts II and maybe (?) III.
+- grokking algorithms.
+
+## Advice from various RC-ers, including me.
+- follow your curiosity.
+- pair as much as possible!
+- don't be afraid to drop a project if it's no longer useful for your learning.
+- my advice to myself: reach outside of your comfort zone, technically, socially.
+
+## Things I learned
+From Casey:
+macros in C
+- get defined in pre-processing stage (prior to compiler), then a sort of 'find + replace' in source code.
+- C macros: preprocessing happens after tokenization + prior to parsing.
+? operator
+From Bryan:
+- antipatterns. Something that is not necessarily wrong -- it runs properly -- but isn't the best way to solve the problem. similar to...
+- code smells: warning signs that person who wrote the code doesn't understand how to write idioms in that language. Indicates a possibility that there are other things that are wrong with their code. (thank you to Bryan and Josh for telling me about smelly code!).
+
+## Things I've done (4/3-4/4)
+- compiled a list of things that I'm interested in doing here.
+- talked to a lot of people.
+- deleted and re-set up a Python venv for my mini Beautiful Soup project because it wasn't finding my bs4 package.
+- paired on a spiral matrix generator problem.
+- wrote some code to scrape ingredients, servings, and recipe steps from the Kitchn website for the aforementioned [Beautiful Soup project](https://github.com/lydiolectal/souper-duper).
+- threw this blog post together!
+
+## People I've talked to (4/3)
+Casey -- talked to about graphics and interpreters / compilers / assembly.
+Bryan -- talked to about Javascript, Python, programming backgrounds + applicability of other fields / humanities to writing code.
+Marlene -- setting up Emacs for Clojure, possibility of working through SICP together. There is another alum also working through SICP.
+Liuda -- talked to her about Russian cataphora; in short, it's not possible even though standard binding rules don't rule it out. She theorizes that it may be due to the internal structure of the Russian DP, resulting in further embedding of the bound pronoun and thereby affecting c-command relationship.
+Sarah -- her Tamora Pierce fan forum scraper in Elixir.
+
+## People I've talked to (4/4)
+Marianne -- showed me a good setup for Python [virtual environments](https://docs.python.org/3/library/venv.html) in which I store all my project venvs under the same .virtualenv location in my Home folder. Blog post about this forthcoming!
+Adam -- tickled my imagination with the question, "what about the universe allows us to program?" He's reading a paper called [Sketch of the Analytical Engine](http://www.fourmilab.ch/babbage/sketch.html), which has notes by Ada Lovelace.
+Rory -- met in a pair programming workshop and spent a good chunk of time trying to write/debug this [spiral matrix generator](http://exercism.io/exercises/python/spiral-matrix/readme) (code [here](https://gist.github.com/SoryRawyer/d247d63d28ab49dd2725361bfc2472ac)). It was a ton of fun pairing and working through it together!
+Ashley -- we both wanted to go for a walk outside in the drizzly rain. We went to Muji, smelled diffusers, and talked about learning Japanese and feelings about feeling experienced as a programmer.
+
+## Future post ideas
+- what the heck are code smells?! how to write code that is not smelly.
+- best practices for virtual environments (as told to me by marianne corvellec): graduating beyond naming my venv 'venv'. yay.
+
+## Links that people have gifted me
+- [is Python interpreted or compiled? Yes.](https://nedbatchelder.com/blog/201803/is_python_interpreted_or_compiled_yes.html)
+- [how your machine finds python](https://leemendelowitz.github.io/blog/how-does-python-find-packages.html)
+- [how git works](https://maryrosecook.com/blog/post/git-from-the-inside-out)
