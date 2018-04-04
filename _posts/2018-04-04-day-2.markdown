@@ -1,14 +1,16 @@
 ---
 layout: post
-title:  "Day 2"
-date: 2018-04-04
+title:  "Day 2: Stimulus Overload"
+date: 2018-04-03
 categories: rc
 ---
 ## RC is...overwhelming.
 
-It's day two at RC. This is such a new experience that I have momentarily misplaced my own tendencies and habits. I think it will be at least another half-week to a full-week before I find them again. I'm also acutely cognizant of the fact that I am one of the least experienced people in this space, and I feel that I am asking for help far more often than I am able to offer it. But RCers here so far are incredibly, unbelievably generous with their time and expertise. This is probably the best place to be a newbie.
+It's day two at RC. This is such a new experience that I have momentarily misplaced my own tendencies and habits. I think it will be at least another half-week to a full-week before I find them again. I'm also acutely cognizant of the fact that I am one of the least experienced people in this space, and I feel that I am asking for help far more often than I am able to offer it. But RCers here so far are incredibly, unbelievably generous with their time and expertise. This is probably a really good place to be a newbie.
 
-Yesterday morning, I met more people than I can remember and talked a lot. Yesterday afternoon, I came back from lunch and found myself in a room full of mostly silent people hunched over their computers. The contrast between the excitement and structure of the morning and the lack of external structure in the afternoon was jarring for me. I spent the afternoon writing this list of things I maybe want to do:
+Yesterday morning, I met more people than I can remember and talked a lot. The sheer amount of socializing was insane. I'm surprised my introvert self made it through and talked to so many people! Yesterday afternoon, I came back from lunch and found myself in a room full of mostly silent people hunched over their computers. The contrast between the excitement and structure of the morning and the lack of external structure in the afternoon was jarring for me.
+
+I spent the afternoon writing this list of things I maybe want to do:
 
 [*Warning*: the rest of this post is literally a list dump. Many of my posts will be list dumps, and the list dumps will be frequent.]
 
@@ -66,16 +68,12 @@ Liuda -- talked to her about Russian cataphora; in short, it's not possible even
 Sarah -- her Tamora Pierce fan forum scraper in Elixir.
 
 # People I've talked to (4/4)
-Marianne -- showed me a good setup for Python [virtual environments](https://docs.python.org/3/library/venv.html) in which I store all my project venvs under the same .virtualenv location in my Home folder. Blog post about this forthcoming!
-Adam -- tickled my imagination with the question, "what about the universe allows us to program?" He's reading a paper called [Sketch of the Analytical Engine](http://www.fourmilab.ch/babbage/sketch.html), which has notes by Ada Lovelace.
-Rory -- met in a pair programming workshop and spent a good chunk of time trying to write/debug this [spiral matrix generator](http://exercism.io/exercises/python/spiral-matrix/readme) (code [here](https://gist.github.com/SoryRawyer/d247d63d28ab49dd2725361bfc2472ac)). It was a ton of fun pairing and working through it together!
-Ashley -- we both wanted to go for a walk outside in the drizzly rain. We went to Muji, smelled diffusers, and talked about learning Japanese and feelings about feeling experienced as a programmer.
-
-# Future post ideas
-- what the heck are code smells?! how to write code that is not smelly.
-- best practices for virtual environments (as told to me by marianne corvellec): graduating beyond naming my venv 'venv'. yay.
+- Marianne -- showed me a good setup for Python [virtual environments](https://docs.python.org/3/library/venv.html) in which I store all my project venvs under the same .virtualenv location in my Home folder. Blog post about this forthcoming!
+- Adam -- tickled my imagination with the question, "what about the universe allows us to program?" He's reading a paper called [Sketch of the Analytical Engine](http://www.fourmilab.ch/babbage/sketch.html), which has notes by Ada Lovelace.
+- Rory -- met in a pair programming workshop and spent a good chunk of time trying to write/debug this [spiral matrix generator](http://exercism.io/exercises/python/spiral-matrix/readme) (code [here](https://gist.github.com/SoryRawyer/d247d63d28ab49dd2725361bfc2472ac)). It was a ton of fun pairing and working through it together!
+- Ashley -- we both wanted to go for a walk outside in the drizzly rain. We went to Muji, smelled diffusers, and talked about learning Japanese and feelings about feeling experienced as a programmer.
 
 # Links that people have gifted me
-- [is Python interpreted or compiled? Yes.](https://nedbatchelder.com/blog/201803/is_python_interpreted_or_compiled_yes.html)
-- [how your machine finds python](https://leemendelowitz.github.io/blog/how-does-python-find-packages.html)
-- [how git works](https://maryrosecook.com/blog/post/git-from-the-inside-out)
+- [Is Python interpreted or compiled? Yes.](https://nedbatchelder.com/blog/201803/is_python_interpreted_or_compiled_yes.html)
+- [How your machine finds Python](https://leemendelowitz.github.io/blog/how-does-python-find-packages.html)
+- [How git works](https://maryrosecook.com/blog/post/git-from-the-inside-out)
