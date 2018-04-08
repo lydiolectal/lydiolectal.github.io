@@ -1,8 +1,8 @@
 ---
-layout: post
+layout:  post
 title:  "Day 2: Stimulus Overload"
-date: 2018-04-03
-categories: rc
+date:  2018-04-03 10:30:00 -0400
+categories:  rc
 ---
 ## RC is...overwhelming.
 

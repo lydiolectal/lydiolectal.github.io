@@ -1,8 +1,8 @@
 ---
-layout: post
+layout:  post
 title:  "The beginning before the beginning"
-date:   2018-04-01 10:30:00 -0400
-categories: rc, story
+date:  2018-04-01 10:30:00 -0400
+categories:  rc, story
 ---
 Tomorrow, my batch at the Recurse Center officially starts. Today, I attended a gathering for the women, non-binary, and trans* folk in Spring 1, 2 and the upcoming mini batch. (I think this is a wonderful thing and really shows how committed RC is to creating an equitable and welcoming environment for all.)
 

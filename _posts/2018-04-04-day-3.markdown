@@ -1,8 +1,8 @@
 ---
-layout: post
+layout:  post
 title:  "Day 3: the Spoon Under the Waterfall"
-date:   2018-04-04 10:30:00 -0400
-categories: rc
+date:  2018-04-04 10:30:00 -0400
+categories:  rc
 ---
 
 Back in college, I went on a summer research trip to Micronesia to study a language there. A professor on the program commented that being a field linguist is like "holding a spoon under a waterfall."

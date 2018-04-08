@@ -1,0 +1,39 @@
+#!/usr/bin/env python3
+
+# then we do chmod -x generate_md, which tells the shell to make generate_md
+# into an executable.
+# then we can run ./generate_md rather than having to do python3 generate_md
+
+import glob, sys, re
+from time import gmtime, strftime
+
+# create file name.
+def filename(postname):
+    # remove non-alphanumeric characters that are not whitespace. lowercase.
+    p = re.compile('[^\w\s]')
+    postname = p.sub("", postname).lower()
+    # split by whitespace and join with '-'
+    filename = "-".join(postname.split())
+    # add date and file ending.
+    filename = strftime("%Y-%m-%d-", gmtime()) + filename + ".markdown"
+    return filename
+
+# create file content
+def content(postname):
+    timestamp = strftime("%Y-%m-%d %X %z", gmtime())
+    content = "---\nlayout:  post\ntitle:  \"" + postname + "\"\ndate:  " \
+                + timestamp + "\ncategories:\n---"
+    return content
+
+# read the first line of input, strip lead/trail whitespace.
+postname = sys.stdin.readline().strip()
+filename = filename(postname)
+# check that filename exists. If so, error: DO NOT OVERWRITE EXISTING FILE.
+if glob.glob("_drafts/" + filename):
+    sys.stderr.write("Error: " + filename + " already exists.\n")
+    sys.exit(1)
+else:
+    content = content(postname)
+    print(content)
+    with open("_drafts/" + filename, 'w') as f:
+        f.write(content)
