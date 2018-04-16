@@ -12,16 +12,18 @@ Strange but true pedagogical linguistics examples aside, this week truly has flo
 # Monday - Wednesday
 
 Started debugging an old C tokenizer for Racket
+
 Realized that debugging was not the way I wanted to spend the majority of my time at RC
+
 Started writing a tokenizer in Python Racket
 
 Learned about regular expressions and used them for the first time in my tokenizer! Regular expressions are a way of representing a pattern of characters, which can then be used to perform searches on strings. For instance, if I wanted to find all continuous (i.e., unbroken by whitespace) sequences of characters that began with a ' symbol, which is syntactic sugar for [quote](https://docs.racket-lang.org/guide/quote.html) in Racket, I could write this expression:
 
-{highlight}
+{% highlight %}
 \# Match: 'Iamaquotedstring!
 \# Not a match: 'Iamaquoted string!
 "\'\S+"
-{endhighlight}
+{% endhighlight %}
 
 The initial escaped ' means the expression starts with '. The \S is shorthand for "all characters that are not whitespace"; the + symbol following \S is used to denote the fact that I want to find sequences of one more more non-whitespace characters.
 
@@ -41,6 +43,6 @@ Learned from Brandon about this weird part of the U.S. called the [Northwest Ang
 
 Added functionality to my Scrabble AI that searches the trie for all words that match a certain template. Ex: given "aba..." (where . represents any letter), it returns:
 
-{highlight python}
+{% highlight python %}
 ['abated', 'abater', 'abates', 'abatis', 'abator', 'abakas', 'abacus', 'abacas', 'abased', 'abaser', 'abases', 'abasia', 'abamps']
-{endhighlight}
+{% endhighlight %}
