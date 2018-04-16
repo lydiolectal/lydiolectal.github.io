@@ -20,8 +20,8 @@ Started writing a tokenizer in Python Racket
 Learned about regular expressions and used them for the first time in my tokenizer! Regular expressions are a way of representing a pattern of characters, which can then be used to perform searches on strings. For instance, if I wanted to find all continuous (i.e., unbroken by whitespace) sequences of characters that began with a ' symbol, which is syntactic sugar for [quote](https://docs.racket-lang.org/guide/quote.html) in Racket, I could write this expression:
 
 {% highlight python %}
-\# Match: 'Iamaquotedstring!
-\# Not a match: 'Iamaquoted string!
+# Match: 'Iamaquotedstring!
+# Not a match: 'Iamaquoted string!
 "\'\S+"
 {% endhighlight %}
 
