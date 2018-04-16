@@ -11,11 +11,11 @@ Strange but true pedagogical linguistics examples aside, this week truly has flo
 
 # Monday - Wednesday
 
-Started debugging an old C tokenizer for Racket
+Started debugging an old C tokenizer for Racket.
 
-Realized that debugging was not the way I wanted to spend the majority of my time at RC
+Realized that debugging was not the way I wanted to spend the majority of my time at RC.
 
-Started writing a tokenizer in Python Racket
+Started writing a tokenizer in Python Racket.
 
 Learned about regular expressions and used them for the first time in my tokenizer! Regular expressions are a way of representing a pattern of characters, which can then be used to perform searches on strings. For instance, if I wanted to find all continuous (i.e., unbroken by whitespace) sequences of characters that began with a ' symbol, which is syntactic sugar for [quote](https://docs.racket-lang.org/guide/quote.html) in Racket, I could write this expression:
 
